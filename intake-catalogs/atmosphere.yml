@@ -16,5 +16,5 @@ sources:
       urlpath: s3://pangeo-era5/reanalysis/spatial-analysis
       consolidated: True
       storage_options:
-        endpoint_url: 'https://s3.us-east-2.wasabisys.com'
+        client_kwargs={'endpoint_url': 'https://s3.us-east-2.wasabisys.com'}
         anon: true
