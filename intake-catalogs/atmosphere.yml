@@ -15,5 +15,6 @@ sources:
       urlpath: s3://era5-atlantic-northeast/zarr/single-levels/reanalysis
       consolidated: True
       storage_options:
-        client_kwargs={'endpoint_url': 'https://s3.us-east-2.wasabisys.com'}
+        client_kwargs:
+        - endpoint_url: 'https://s3.us-east-2.wasabisys.com'}
         anon: true
