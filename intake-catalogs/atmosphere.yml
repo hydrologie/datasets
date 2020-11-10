@@ -13,7 +13,7 @@ sources:
       - atmosphere
     driver: zarr
     args:
-      urlpath: s3://pangeo-era5/reanalysis/spatial-analysis
+      urlpath: s3://era5-atlantic-northeast/zarr/single-levels/reanalysis
       consolidated: True
       storage_options:
         client_kwargs={'endpoint_url': 'https://s3.us-east-2.wasabisys.com'}
