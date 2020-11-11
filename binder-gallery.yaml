@@ -5,6 +5,6 @@
     publicly available on Amazon S3 (us-west-2 region) using xarray and dask
   gallery_repository: pangeo-gallery/pangeo-gallery
   binder_url: "https://aws-uswest2-binder.pangeo.io"
-  binder_repo: NCAR/cesm-lens-aws
+  binder_repo: hydrologie/datasets
   binder_ref: master
   binderbot_target_branch: binderbot-built
