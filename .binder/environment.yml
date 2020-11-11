@@ -26,6 +26,8 @@ dependencies:
   - jupyter-panel-proxy
   - retrying
   - matplotlib-base
+  - intake-xarray
+  - intake
   - numpy
   - pandas
   - pydap
