@@ -5,12 +5,30 @@ dependencies:
   - cftime
   - cmaps
   - fsspec
-  - intake-esm>=2020.8.15
-  - nc-time-axis
   - netcdf4
   - pangeo-notebook=2020.08.11
   - pip
   - s3fs
+  - gcsfs
   - watermark
   - zarr
   - cartopy
+  - appmode
+  - dask
+  - dask-jobqueue
+  - fsspec
+  - geopandas
+  - docopt
+  - holoviews
+  - hvplot
+  - ipywidgets
+  - ipyleaflet
+  - jupyter-panel-proxy
+  - retrying
+  - matplotlib-base
+  - numpy
+  - pandas
+  - pydap
+  - panel
+  - scipy
+  - xarray
