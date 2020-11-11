@@ -28,11 +28,12 @@ dependencies:
   - jupyter-panel-proxy
   - retrying
   - matplotlib-base
-  - intake-xarray
   - intake
   - numpy
   - pandas
   - pydap
   - panel
   - scipy
-  - xarray
+  - pip:
+      - git+https://github.com/Mikejmnez/intake-xarray.git@master
+      - git+https://github.com/pydata/xarray.git@master
