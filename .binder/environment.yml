@@ -18,6 +18,8 @@ dependencies:
   - dask-jobqueue
   - fsspec
   - geopandas
+  - geoviews
+  - descartes
   - docopt
   - holoviews
   - hvplot
