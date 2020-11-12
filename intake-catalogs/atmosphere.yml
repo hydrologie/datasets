@@ -12,7 +12,7 @@ sources:
       - atmosphere
     driver: zarr
     args:
-      urlpath: s3://era5-atlantic-northeast/zarr/single-levels/reanalysis
+      urlpath: s3://era5-atlantic-northeast/zarr/reanalysis/single-levels/*/*
       consolidated: True
       storage_options:
         client_kwargs: { endpoint_url: 'https://s3.us-east-2.wasabisys.com'}
