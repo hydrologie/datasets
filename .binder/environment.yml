@@ -29,12 +29,13 @@ dependencies:
   - retrying
   - matplotlib-base
   - intake
+  - intake-xarray
   - numpy
   - pandas
   - pydap
   - panel
+  - rasterio
   - scipy
+  - xarray
   - pip:
-      - git+https://github.com/Mikejmnez/intake-xarray.git@master
-      - git+https://github.com/pydata/xarray.git@master
       - git+https://github.com/sebastienlanglois/hydrotools.git@master
